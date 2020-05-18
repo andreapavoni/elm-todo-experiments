@@ -1,0 +1,16 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "The following command will start `elm-live` and open your default browser on http://localhost:8000",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json",
+    "dev": "elm-live src/TodoList.elm --open -- --debug --output build/elm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
